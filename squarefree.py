@@ -6,3 +6,6 @@ def squarefree(s):
     Return boolean"""
     validity = True
     index = 0
+    while (index <= (len(s))):
+        new_val = 0
+        for count in range(index+1, len(s)):
