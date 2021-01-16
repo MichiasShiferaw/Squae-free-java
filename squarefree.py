@@ -4,3 +4,5 @@ def squarefree(s):
     Precondition:
     s: is a string
     Return boolean"""
+    validity = True
+    index = 0
