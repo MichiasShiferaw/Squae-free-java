@@ -12,3 +12,5 @@ def squarefree(s):
             new_val = count - index
             if s[index:count] == s[count:count+new_val]:
                 validity = False
+        index+=1
+    return validit
